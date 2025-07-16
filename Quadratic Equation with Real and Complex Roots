@@ -1,0 +1,11 @@
+# Write a program find roots of a quadratic equation (handle complex roots too).
+
+import cmath
+a=int(input("Enter a: "))
+b=int(input("Enter b: "))
+c=int(input("Enter c: "))
+d=(b**2)-(4*a*c)
+x=cmath.sqrt(d)
+root1 = (-b+x) / (2*a)
+root2 = (-b-x) / (2*a)
+print("Roots are:", root1, "and", root2)
