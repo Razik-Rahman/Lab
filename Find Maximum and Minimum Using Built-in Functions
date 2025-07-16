@@ -1,5 +1,4 @@
-# Write a program using built-in functions to find the largest and smallest among
-# three numbers.
+# Write a program using built-in functions to find the largest and smallest among three numbers.
 a=int(input("Enter first number: "))
 b=int(input("Enter second number: "))
 c=int(input("Enter third number: "))
