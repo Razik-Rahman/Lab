@@ -1,0 +1,28 @@
+# Write a program count words, lines, and characters in a user-provided sentence. 
+
+def words(a):
+    word_list = a.split()
+    print("The number of words:", len(word_list))
+
+def lines(a):
+    line_list = a.split(".")
+    print("The number of lines:", len(line_list))
+
+def characters(a):
+    print("The number of characters:", len(a))
+
+a = input("Enter the string: ")
+while True:
+    print("\nTo count:\n1. Words\n2. Lines\n3. Characters\n4. Exit")
+    ch = int(input("Enter your choice: "))
+    if ch == 1:
+        words(a)
+    elif ch == 2:
+        lines(a)
+    elif ch == 3:
+        characters(a)
+    elif ch == 4:
+        print("Exiting....")
+        break
+    else:
+        print("Invalid choice. Please try again.")
