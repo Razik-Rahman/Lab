@@ -1,0 +1,6 @@
+# Write a program to accept your name and year of birth and display your current age.
+
+name=input("Enter your name: ")
+birthyear=int(input("Enter your year of birth: "))
+age=2025-birthyear
+print(f"Hello {name}, you are {age} years old.")
