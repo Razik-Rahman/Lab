@@ -1,0 +1,9 @@
+# Write a program to create two sets of numbers and perform union, intersection,
+# difference, and symmetric difference.
+
+a=set(map(int,input("Enter elements of first set : ").split()))
+b=set(map(int,input("Enter elements of second set: ").split()))
+print("Union:",a|b)
+print("Intersection:",a&b)
+print("Difference (first-second):",a-b)
+print("Symmetric Difference:"
