@@ -1,0 +1,12 @@
+# Write a program to create a dictionary of student names and marks, then print
+# students who scored above 75.
+
+n=int(input("Enter number of students: "))
+students={}
+for _ in range(n):
+ name=input("Enter name: ")
+ marks=int(input("Enter marks: "))
+ students[name]=marks
+for name,marks in students.items():
+ if marks>75:
+ print(name,marks)
