@@ -1,0 +1,10 @@
+# Write a program to accept a list of numbers and print all numbers greater than
+# the average.
+
+num=list(map(int, input("Enter numbers: ").split()))
+avg=sum(num)/len(num)
+print("Average is:", avg)
+print("Numbers greater than average:")
+for n in num:
+   if n>avg:
+       print(n)
