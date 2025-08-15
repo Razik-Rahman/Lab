@@ -1,0 +1,6 @@
+# Write a program to read a file and display the number of words in it.
+
+f=open("a.txt","r")
+words=f.read().split()
+print("Number of words:",len(words))
+ f.close()
