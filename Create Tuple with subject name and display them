@@ -1,0 +1,6 @@
+# Write a program to create a tuple with subject names and display them using
+# loop.
+
+a = tuple(input("Enter values: ").split())
+for i in range(len(a)):
+ print(a)
