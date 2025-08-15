@@ -1,0 +1,8 @@
+# Write a program to create a matrix using NumPy and print its shape (rows and columns).
+
+import numpy as np
+rows=int(input("Enter roews:"))
+cols=int(input("Enter columns"))
+mat=np.arange(1,rows*cols+1).reshape(rows,cols)
+print(mat)
+print("Shape:",mat.shape)
