@@ -1,0 +1,10 @@
+# Write a program to write 5 lines to a file and then append 2 more lines.
+
+f=open("file.txt","w")
+for i in range(5):
+ f.write(input()+"\n")
+f.close()
+f=open("file.txt","a")
+for i in range(2):
+ f.write(input()+"\n")
+ f.close()
