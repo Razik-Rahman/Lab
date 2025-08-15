@@ -1,0 +1,10 @@
+# Write a program to define a custom exception for invalid marks (e.g., negative
+# or above 100) and raise it if the input is invalid.
+class InvalidMarks(Exception): pass
+try:
+ marks=int(input("Enter Mark:"))
+ if marks<0 or marks>100:
+ raise InvalidMarks
+ print("Valid Marks:",marks)
+except InvalidMarks:
+ print("Invalid marks entered")
